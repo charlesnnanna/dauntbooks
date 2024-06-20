@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import { Fragment } from "react";
 import {
   Disclosure,
@@ -70,24 +69,20 @@ export default function Header() {
 
             
                 <div className="flex-shrink-0 flex items-center">
-                  <Image
+                  <img
                     className="block lg:hidden h-8 w-auto"
                     src="images/Logo.svg"
                     alt="Dauntbooks"
-                    width={50}
-                    height={50}
                   />
-                  <Image
+                  <img
                     className="hidden lg:block h-6 w-auto mr-4"
                     src="images/Logo.svg"
                     alt="Dauntbooks"
-                    width={50}
-                    height={50}
                   />
                   <div className="md:flex md:flex-row md:gap-2 hidden w-82 h-6">
-                    <Image width={50} height={50} src="Images/Facebook.svg" alt="Facebook handle" />
-                    <Image width={50} height={50} src="Images/Twitter.svg" alt="Twitter handle" />
-                    <Image width={50} height={50} src="Images/LinkedIn.svg" alt="LinkedIn handle" />
+                    <img src="Images/Facebook.svg" alt="Facebook handle" />
+                    <img src="Images/Twitter.svg" alt="Twitter handle" />
+                    <img src="Images/LinkedIn.svg" alt="LinkedIn handle" />
                   </div>
                 </div>
                 <div className="hidden md:ml-6 md:flex md:items-center md:space-x-4">
@@ -107,7 +102,7 @@ export default function Header() {
                     </a>
                   ))}
                   <span className="border-0 border-transparent relative">
-                    <Image height={50} width={50} alt="cart" className = "relative" src="images/cart.svg" />
+                    <img className = "relative" src="images/cart.svg" />
                     <span className="absolute border-0 border-transparent font-bold flex justify-center items-center rounded-full bg-thickyellow w-5 h-5 text-xs text-navyblue right-[-10px] top-[-10px]">01</span>
                   </span>
                   <span className="border-0 border-thickyellow px-4 py-2 ml-2 bg-thickyellow text-navyblue">
