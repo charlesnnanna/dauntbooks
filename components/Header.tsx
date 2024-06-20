@@ -80,9 +80,9 @@ export default function Header() {
                     alt="Dauntbooks"
                   />
                   <div className="md:flex md:flex-row md:gap-2 hidden w-82 h-6">
-                    <img src="Images/Facebook.svg" alt="Facebook handle" />
-                    <img src="Images/Twitter.svg" alt="Twitter handle" />
-                    <img src="Images/LinkedIn.svg" alt="LinkedIn handle" />
+                    <img src="Images/Facebook.svg" alt="Facebook" />
+                    <img src="Images/Twitter.svg" alt="Twitter" />
+                    <img src="Images/LinkedIn.svg" alt="LinkedIn" />
                   </div>
                 </div>
                 <div className="hidden md:ml-6 md:flex md:items-center md:space-x-4">
