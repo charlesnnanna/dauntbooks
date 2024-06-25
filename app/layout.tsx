@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Cardo, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import HomeHero from "@/components/HomeHero";
 
 const cardo = Cardo({ 
   weight: ['400', '700'],
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className={`${cardo.className}`}>
         <div className="border-0 border-transparent md:px-[180px]">
           <Header/>
+          <HomeHero/>
           {children}
         </div>
       </body>
