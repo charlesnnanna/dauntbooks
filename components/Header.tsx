@@ -44,18 +44,19 @@ export default function Header() {
   //const counter = useSelector((state) => state.counter)
 
   return (
-    <Disclosure as="nav" className="bg-navyblue">
+    <Disclosure as="nav" className="bg-navyblue md:px-[180px]">
       {({ open }: { open: boolean }) => (
         <>
           <div className="w-full mx-auto px-4 sm:px-6 md:px-0 md:py-4 text-sm ">
             <div className="flex justify-between h-16 w-full">
               <div className="flex md:flex-row flex-row-reverse justify-between w-full ">
                 <div className=" flex  items-center md:hidden">
-
-                <span className="md:hidden border-0 border-white relative mr-4">
-                    <img className = "relative" src="images/cart.svg" />
-                    <span className="absolute border-0 border-transparent font-bold flex justify-center items-center rounded-full bg-thickyellow w-5 h-5 text-xs text-navyblue right-[-10px] top-[-10px]">01</span>
-                </span>
+                  <span className="md:hidden border-0 border-white relative mr-4">
+                    <img className="relative" src="images/cart.svg" />
+                    <span className="absolute border-0 border-transparent font-bold flex justify-center items-center rounded-full bg-thickyellow w-5 h-5 text-xs text-navyblue right-[-10px] top-[-10px]">
+                      01
+                    </span>
+                  </span>
 
                   <DisclosureButton className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
@@ -67,7 +68,6 @@ export default function Header() {
                   </DisclosureButton>
                 </div>
 
-            
                 <div className="flex-shrink-0 flex items-center">
                   <img
                     className="block lg:hidden h-8 w-auto"
@@ -102,8 +102,10 @@ export default function Header() {
                     </a>
                   ))}
                   <span className="border-0 border-transparent relative">
-                    <img className = "relative" src="images/cart.svg" />
-                    <span className="absolute border-0 border-transparent font-bold flex justify-center items-center rounded-full bg-thickyellow w-5 h-5 text-xs text-navyblue right-[-10px] top-[-10px]">01</span>
+                    <img className="relative" src="images/cart.svg" />
+                    <span className="absolute border-0 border-transparent font-bold flex justify-center items-center rounded-full bg-thickyellow w-5 h-5 text-xs text-navyblue right-[-10px] top-[-10px]">
+                      01
+                    </span>
                   </span>
                   <span className="border-0 border-thickyellow px-4 py-2 ml-2 bg-thickyellow text-navyblue">
                     Order Today

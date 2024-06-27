@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HomeHero() {
   return (
-    <div className="flex md:flex-row flex-col border-0 my-20">
+    <div className="flex md:flex-row flex-col border-0 my-20 md:px-[180px]">
       {/* Hero description */}
       <div className="border-0 self-center py-2 my-2">
         <div className="border-0 flex flex-row gap-2">
@@ -73,7 +73,7 @@ export default function HomeHero() {
 
       {/* Hero Image */}
       <div>
-        <Image src="/images/book.SVG" alt="book" width={500} height={100} />
+        <Image src="/images/book.svg" alt="book" width={500} height={100} />
       </div>
     </div>
   );

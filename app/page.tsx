@@ -1,7 +1,11 @@
-import Book from "./book/page";
+import AuthorBooks from "@/components/HomeComponents/AuthorBooks";
+import HomeHero from "@/components/HomeComponents/HomeHero";
 
 export default function Home() {
   return (
-    <h1></h1>
+    <>
+      <HomeHero />
+      <AuthorBooks />
+    </>
   );
 }
