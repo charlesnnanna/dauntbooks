@@ -11,20 +11,25 @@ interface AuthorBookProps {
 }
 export default function AuthorBook(props: AuthorBookProps) {
   return (
-    <div className="border border-navyblue text-navyblue flex flex-row gap-[10px]">
+    <div className="text-primary flex flex-row gap-[10px]">
       <Image src={props.imagesrc} alt="first book" width={300} height={500} />
 
-      <div className="border border-navyblue py-[40px]">
+      <div className="py-[40px]">
         <h2 className="text-2xl">{props.title}</h2>
-        <p className="py-3 text-sm text-slate-700 opacity-50 leading-loose">
+        <div className="h-[14px] hidden md:block" />
+        <p className="text-sm text-black/40 leading-relaxed">
           {props.description}
         </p>
-        <ul className="flex flex-row gap-10">
+        <div className="h-[30px] hidden md:block" />
+        <ul className="flex flex-row gap-6">
           <HomeList title="Pages" value={props.pages} />
           <HomeList title="Length" value={props.length} />
         </ul>
+        <div className="h-[30px] hidden md:block" />
 
-        <button>Order Today</button>
+        <button className="border-2 border-secondary/40 text-center p-2 md:w-[150px]">
+          Order Today
+        </button>
       </div>
     </div>
   );

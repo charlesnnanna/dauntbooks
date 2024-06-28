@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HomeHero() {
   return (
-    <div className="flex md:flex-row flex-col border-0 my-20 md:px-[180px]">
+    <div className="flex md:flex-row flex-col border-0 my-20 md:px-[180px] px-[20px]">
       {/* Hero description */}
       <div className="border-0 self-center py-2 my-2">
         <div className="border-0 flex flex-row gap-2">
@@ -18,7 +18,7 @@ export default function HomeHero() {
         </p>
 
         <div className="flex flex-row text-md font-bold gap-6 my-6">
-          <button className="border-0 bg-thickyellow text-navyblue py-2 w-[150px]">
+          <button className="border-0 bg-secondary text-primary py-2 w-[150px]">
             Order Today
           </button>
           <button className="border-b self-center">Read Free Demo</button>
@@ -31,8 +31,8 @@ export default function HomeHero() {
                 className="self-start pt-2"
                 src="/images/bulletpoint.svg"
                 alt="bulletpoint"
-                width={20}
-                height={20}
+                width={15}
+                height={15}
               />
               <p>
                 Pages: <br />
@@ -45,8 +45,8 @@ export default function HomeHero() {
                 className="self-start pt-2"
                 src="/images/bulletpoint.svg"
                 alt="bulletpoint"
-                width={20}
-                height={20}
+                width={15}
+                height={15}
               />
               <p>
                 Lenght: <br />
@@ -59,8 +59,8 @@ export default function HomeHero() {
                 className="self-start pt-2"
                 src="/images/bulletpoint.svg"
                 alt="bulletpoint"
-                width={20}
-                height={20}
+                width={15}
+                height={15}
               />
               <p>
                 Ratings: <br />

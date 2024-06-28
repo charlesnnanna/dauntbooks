@@ -14,10 +14,10 @@ export default function HomeList(props: HomeListProps) {
           className="self-start pt-2"
           src="/images/bulletpoint.svg"
           alt="bulletpoint"
-          width={10}
-          height={10}
+          width={15}
+          height={15}
         />
-        <p>
+        <p className="font-bold">
           {props.title}: <br />
           <span className="font-normal text-sm">{props.value}</span>
         </p>

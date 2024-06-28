@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${cardo.className}`}>
-        <div className="border-0 border-transparent">
+        <div className="border-0 border-transparent overflow-hidden">
           <Header />
           {children}
         </div>

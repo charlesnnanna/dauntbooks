@@ -44,7 +44,7 @@ export default function Header() {
   //const counter = useSelector((state) => state.counter)
 
   return (
-    <Disclosure as="nav" className="bg-navyblue md:px-[180px]">
+    <Disclosure as="nav" className="bg-primary md:px-[180px] px-[5px]">
       {({ open }: { open: boolean }) => (
         <>
           <div className="w-full mx-auto px-4 sm:px-6 md:px-0 md:py-4 text-sm ">
@@ -53,7 +53,7 @@ export default function Header() {
                 <div className=" flex  items-center md:hidden">
                   <span className="md:hidden border-0 border-white relative mr-4">
                     <img className="relative" src="images/cart.svg" />
-                    <span className="absolute border-0 border-transparent font-bold flex justify-center items-center rounded-full bg-thickyellow w-5 h-5 text-xs text-navyblue right-[-10px] top-[-10px]">
+                    <span className="absolute border-0 border-transparent font-bold flex justify-center items-center rounded-full bg-secondary w-5 h-5 text-xs text-primary right-[-10px] top-[-10px]">
                       01
                     </span>
                   </span>
@@ -103,11 +103,11 @@ export default function Header() {
                   ))}
                   <span className="border-0 border-transparent relative">
                     <img className="relative" src="images/cart.svg" />
-                    <span className="absolute border-0 border-transparent font-bold flex justify-center items-center rounded-full bg-thickyellow w-5 h-5 text-xs text-navyblue right-[-10px] top-[-10px]">
+                    <span className="absolute border-0 border-transparent font-bold flex justify-center items-center rounded-full bg-secondary w-5 h-5 text-xs text-primary right-[-10px] top-[-10px]">
                       01
                     </span>
                   </span>
-                  <span className="border-0 border-thickyellow px-4 py-2 ml-2 bg-thickyellow text-navyblue">
+                  <span className="border-0 border-secondary px-4 py-2 ml-2 bg-secondary text-primary">
                     Order Today
                   </span>
                 </div>
