@@ -15,6 +15,7 @@ import {
   PlusIcon,
   XMarkIcon,
 } from "@heroicons/react/24/solid";
+import Image from "next/image";
 
 const user = {
   name: "Tom Cook",
@@ -52,7 +53,13 @@ export default function Header() {
               <div className="flex md:flex-row flex-row-reverse justify-between w-full ">
                 <div className=" flex  items-center md:hidden">
                   <span className="md:hidden border-0 border-white relative mr-4">
-                    <img className="relative" src="images/cart.svg" />
+                    <Image
+                      className="relative"
+                      src="images/cart.svg"
+                      alt="cart"
+                      height={30}
+                      width={30}
+                    />
                     <span className="absolute border-0 border-transparent font-bold flex justify-center items-center rounded-full bg-secondary w-5 h-5 text-xs text-primary right-[-10px] top-[-10px]">
                       01
                     </span>
@@ -69,20 +76,39 @@ export default function Header() {
                 </div>
 
                 <div className="flex-shrink-0 flex items-center">
-                  <img
+                  <Image
                     className="block lg:hidden h-8 w-auto"
                     src="images/Logo.svg"
                     alt="Dauntbooks"
+                    height={100}
+                    width={100}
                   />
-                  <img
+                  <Image
                     className="hidden lg:block h-6 w-auto mr-4"
                     src="images/Logo.svg"
                     alt="Dauntbooks"
+                    height={100}
+                    width={100}
                   />
-                  <div className="md:flex md:flex-row md:gap-2 hidden w-82 h-6">
-                    <img src="Images/Facebook.svg" alt="Facebook" />
-                    <img src="Images/Twitter.svg" alt="Twitter" />
-                    <img src="Images/LinkedIn.svg" alt="LinkedIn" />
+                  <div className="md:flex md:flex-row md:gap-2 hidden">
+                    <Image
+                      src="Images/Facebook.svg"
+                      alt="Facebook"
+                      height={80}
+                      width={40}
+                    />
+                    <Image
+                      src="Images/Twitter.svg"
+                      alt="Twitter"
+                      height={80}
+                      width={40}
+                    />
+                    <Image
+                      src="Images/LinkedIn.svg"
+                      alt="LinkedIn"
+                      height={80}
+                      width={40}
+                    />
                   </div>
                 </div>
                 <div className="hidden md:ml-6 md:flex md:items-center md:space-x-4">
@@ -102,7 +128,13 @@ export default function Header() {
                     </a>
                   ))}
                   <span className="border-0 border-transparent relative">
-                    <img className="relative" src="images/cart.svg" />
+                    <Image
+                      className="relative"
+                      src="images/cart.svg"
+                      alt="cart"
+                      height={30}
+                      width={30}
+                    />
                     <span className="absolute border-0 border-transparent font-bold flex justify-center items-center rounded-full bg-secondary w-5 h-5 text-xs text-primary right-[-10px] top-[-10px]">
                       01
                     </span>
