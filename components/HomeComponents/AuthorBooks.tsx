@@ -20,7 +20,7 @@ export default function AuthorBooks() {
           description="Many variations of passages of Lorem Ipsum willing araise  alteration in some form."
           pages="121 pages"
           length="20 hours"
-          imagesrc="/images/book1.svg"
+          imagesrc="images/book1.svg"
         />
 
         <AuthorBook
