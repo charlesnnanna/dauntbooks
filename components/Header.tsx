@@ -45,7 +45,10 @@ export default function Header() {
   //const counter = useSelector((state) => state.counter)
 
   return (
-    <Disclosure as="nav" className="bg-primary md:px-[180px] px-[5px]">
+    <Disclosure
+      as="nav"
+      className="bg-primary fixed w-full top-0 md:px-[180px] px-[5px]"
+    >
       {({ open }: { open: boolean }) => (
         <>
           <div className="w-full mx-auto px-4 sm:px-6 md:px-0 md:py-4 text-sm ">
@@ -147,7 +150,7 @@ export default function Header() {
             </div>
           </div>
 
-          <DisclosurePanel className="md:hidden">
+          <DisclosurePanel className="lg:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {navigation.map((item) => (
                 <DisclosureButton
