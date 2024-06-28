@@ -92,19 +92,19 @@ export default function Header() {
                   />
                   <div className="md:flex md:flex-row md:gap-2 hidden">
                     <Image
-                      src="Images/Facebook.svg"
+                      src="/Images/Facebook.svg"
                       alt="Facebook"
                       height={80}
                       width={40}
                     />
                     <Image
-                      src="Images/Twitter.svg"
+                      src="/Images/Twitter.svg"
                       alt="Twitter"
                       height={80}
                       width={40}
                     />
                     <Image
-                      src="Images/LinkedIn.svg"
+                      src="/Images/LinkedIn.svg"
                       alt="LinkedIn"
                       height={80}
                       width={40}

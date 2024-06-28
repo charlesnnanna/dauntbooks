@@ -73,7 +73,7 @@ export default function HomeHero() {
 
       {/* Hero Image */}
       <div>
-        <Image src="images/book.SVG" alt="book" width={500} height={100} />
+        <Image src="/images/Book.svg" alt="book" width={500} height={100} />
       </div>
     </div>
   );
