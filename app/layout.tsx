@@ -25,8 +25,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${cardo.className}`}>
-        <div className="border-0 border-transparent overflow-hidden">
+      <body className={`${cardo.className} w-screen`}>
+        <div className="border border-white overflow-visible w-full">
           <Header />
           {children}
         </div>

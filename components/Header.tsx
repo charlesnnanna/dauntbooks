@@ -47,11 +47,11 @@ export default function Header() {
   return (
     <Disclosure
       as="nav"
-      className="bg-primary fixed w-full top-0 md:px-[180px] px-[5px]"
+      className="bg-primary sticky w-full top-0 lg:px-[10vw] px-[3vw]"
     >
       {({ open }: { open: boolean }) => (
         <>
-          <div className="w-full mx-auto px-4 sm:px-6 md:px-0 md:py-4 text-sm ">
+          <div className="w-full mx-auto  md:px-0 md:py-4 text-sm ">
             <div className="flex justify-between h-16 w-full">
               <div className="flex md:flex-row flex-row-reverse justify-between w-full ">
                 <div className=" flex  items-center md:hidden">
@@ -93,7 +93,7 @@ export default function Header() {
                     height={100}
                     width={100}
                   />
-                  <div className="md:flex md:flex-row md:gap-2 hidden">
+                  <div className="lg:flex lg:flex-row lg:gap-2 hidden">
                     <Image
                       src="/images/Facebook.svg"
                       alt="Facebook"
@@ -114,7 +114,7 @@ export default function Header() {
                     />
                   </div>
                 </div>
-                <div className="hidden md:ml-6 md:flex md:items-center md:space-x-4">
+                <div className="hidden  md:flex md:items-center md:space-x-4">
                   {navigation.map((item) => (
                     <a
                       key={item.name}
