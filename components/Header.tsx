@@ -47,7 +47,7 @@ export default function Header() {
   return (
     <Disclosure
       as="nav"
-      className="bg-primary sticky w-full top-0 lg:px-[10vw] px-[3vw]"
+      className="bg-primary sticky w-full top-0 lg:px-[10vw] px-[3vw] z-50"
     >
       {({ open }: { open: boolean }) => (
         <>

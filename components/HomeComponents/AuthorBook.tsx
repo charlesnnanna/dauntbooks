@@ -11,17 +11,17 @@ interface AuthorBookProps {
 }
 export default function AuthorBook(props: AuthorBookProps) {
   return (
-    <div className=" border border-black text-primary flex flex-row flex-wrap md:flex-nowrap gap-[0] lg:gap-[10px] justify-center">
-      <Image
-        className="w-10"
-        src={props.imagesrc}
-        layout="responsive"
-        alt="first book"
-        width={100}
-        height={300}
-      />
+    <div className="min-w-[10vw] border border-black text-primary flex flex-col md:flex-row md:gap-[10px] justify-center">
+      <div className="lg:w-[40vw] lg:h-[400px] h-[200px] w-[30vw] relative">
+        <Image
+          className="border border-black"
+          src={props.imagesrc}
+          layout="fill"
+          alt="first book"
+        />
+      </div>
 
-      <div className="py-[5px] px-[20px] lg:py-[40px]">
+      <div className="py-[5px] lg:px-[20px] lg:py-[40px] border border-black">
         <h2 className="text-2xl">{props.title}</h2>
         <div className="h-[14px] hidden md:block" />
         <p className="text-sm text-black/40 leading-relaxed">
