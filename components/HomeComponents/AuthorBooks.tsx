@@ -9,14 +9,14 @@ import "swiper/css";
 export default function AuthorBooks() {
   return (
     <div className="bg-white md:py-[145px] py-[60px] lg:px-[10vw] px-[3vw]  w-full border-4 border-secondary">
-      <header className="border border-black flex items-center flex-col w-full">
+      <header className="flex items-center flex-col w-full">
         <h2 className="border-secondary text-primary text-4xl">
           Author's Book Includes
         </h2>
         <div className="border border-secondary block w-[10vw] lg:w-[40px] mt-[20px] " />
       </header>
 
-      <div className=" mt-[20px] lg:mt-[57px] border border-black w-full">
+      <div className=" mt-[20px] lg:mt-[57px] w-full">
         <Swiper
           //spaceBetween={50}
           //slidesPerView={1}
@@ -40,7 +40,7 @@ export default function AuthorBooks() {
             {" "}
             <AuthorBook
               title="Atomic One's"
-              description="Many variations of passages of Lorem Ipsum willing araise  alteration in some form."
+              description="Many variations of passages of Lorem Ipsum willing araise  alteration in some form.Many variations of passages of Lorem Ipsum willing araise  alteration in some form."
               pages="121 pages"
               length="20 hours"
               imagesrc="images/book1.svg"
