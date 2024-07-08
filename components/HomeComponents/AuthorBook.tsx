@@ -12,7 +12,7 @@ interface AuthorBookProps {
 }
 export default function AuthorBook(props: AuthorBookProps) {
   return (
-    <div className="min-w-[10vw] text-primary flex flex-col md:flex-row md:gap-[10px] justify-center py-2 shadow-xl">
+    <div className="min-w-[10vw] text-primary flex flex-col md:flex-row md:gap-[10px] justify-center py-2 shadow-2xl lg:shadow-none">
       <div className="lg:w-[40vw] lg:h-[400px] h-[200px] md:w-[30vw] relative">
         <Image
           className=""

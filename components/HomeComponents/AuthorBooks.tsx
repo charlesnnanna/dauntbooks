@@ -5,16 +5,12 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import AuthorBook from "./AuthorBook";
 import "swiper/css";
+import SectionHeader from "../SectionHeader";
 
 export default function AuthorBooks() {
   return (
-    <div className="bg-white md:py-[145px] py-[60px] lg:px-[10vw] px-[3vw]  w-full border-4 border-secondary">
-      <header className="flex items-center flex-col w-full">
-        <h2 className="border-secondary text-primary text-4xl">
-          Author's Book Includes
-        </h2>
-        <div className="border border-secondary block w-[10vw] lg:w-[40px] mt-[20px] " />
-      </header>
+    <div className="bg-white md:py-[145px] py-[60px] lg:px-[10vw] px-[3vw]  w-full">
+      <SectionHeader position="items-center" title="Author's Book Includes" />
 
       <div className=" mt-[20px] lg:mt-[57px] w-full">
         <Swiper
@@ -32,6 +28,11 @@ export default function AuthorBooks() {
             // when window width is >= 640px
             640: {
               slidesPerView: 2,
+              spaceBetween: 10,
+            },
+            // when window width is >= 640px
+            1600: {
+              slidesPerView: 4,
               spaceBetween: 10,
             },
           }}
