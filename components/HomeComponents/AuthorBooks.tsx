@@ -10,7 +10,10 @@ import SectionHeader from "../SectionHeader";
 export default function AuthorBooks() {
   return (
     <div className="bg-white md:py-[145px] py-[60px] lg:px-[10vw] px-[3vw]  w-full">
-      <SectionHeader position="items-center" title="Author's Book Includes" />
+      <SectionHeader
+        style="items-center text-primary"
+        title="Author's Book Includes"
+      />
 
       <div className=" mt-[20px] lg:mt-[57px] w-full">
         <Swiper

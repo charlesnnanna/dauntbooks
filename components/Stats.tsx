@@ -9,7 +9,10 @@ export default function Stats() {
   return (
     <div className="bg-white text-black">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 lg:px-[10vw] px-[3vw] lg:py-20">
-        <SectionHeader title="Trusted by the Best" position="items-center" />
+        <SectionHeader
+          title="Trusted by the Best"
+          style="items-center text-primary"
+        />
         <dl className="mt-10 text-center sm:max-w-4xl sm:mx-auto sm:grid sm:grid-cols-2 sm:gap-9 md:grid-cols-4 md:gap-9">
           <SingleStat
             imageSrc="images/stat1.svg"

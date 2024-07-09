@@ -16,7 +16,7 @@ export default function AboutAuthor() {
         <div className="h-[10px] md:h-[30px]" />
         <SectionHeader
           title="About Author"
-          position="items-center md:items-start"
+          style="items-center md:items-start text-primary"
         />
         <div className="h-[10px] md:h-[30px]" />
         <p className="text-sm text-black/40 leading-relaxed w-full overflow-hidden ">
