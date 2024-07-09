@@ -8,7 +8,7 @@ export default function WhatToLearn() {
   //const counter = useSelector((state) => state.counter)
 
   return (
-    <div className="flex flex-col gap-10 relative bg-white py-4 sm:py-12 lg:py-20 overflow-hidden">
+    <div className="flex flex-col gap-10 relative bg-white py-12 sm:py-12 lg:py-20 overflow-hidden">
       <div>
         <SectionHeader
           title="What will you learn"
