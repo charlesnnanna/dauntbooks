@@ -1,7 +1,7 @@
-import React from "react";
-import HomeList from "./HomeList";
+import React from 'react';
+import HomeList from '@components/HomeComponents/HomeList.tsx';
 
-export default function Chapter() {
+export default function Chapter(): JSX.Element {
   return (
     <div className="max-w-[700px] border border-black p-6 shadow-xl">
       <h3 className="text-xl mb-4">Chapter-01 Get Started Intro</h3>

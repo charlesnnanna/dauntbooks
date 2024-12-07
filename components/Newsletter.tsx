@@ -1,4 +1,4 @@
-export default function Newsletter() {
+export default function Newsletter(): JSX.Element {
   return (
     <div className="bg-white py-16 sm:py-24 overflow-hidden">
       <div className="relative sm:py-16">

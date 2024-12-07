@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-export default function Reviews() {
+
+export default function Reviews(): JSX.Element {
   return (
     <section className="bg-white overflow-hidden">
       <div className="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">

@@ -1,10 +1,10 @@
-import Image from "next/image";
-import SectionHeader from "./SectionHeader";
-import Button from "./Button";
+import Image from 'next/image';
+import SectionHeader from '@components/SectionHeader.tsx';
+import Button from '@components/Button';
 
-export default function Cta() {
+export default function Cta(): JSX.Element {
   // REDUX
-  //const counter = useSelector((state) => state.counter)
+  // const counter = useSelector((state) => state.counter)
 
   return (
     <div className="bg-primary">

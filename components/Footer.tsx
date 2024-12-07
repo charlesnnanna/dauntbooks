@@ -1,56 +1,56 @@
-import { useState, useEffect } from "react";
+
 const navigation = {
   solutions: [
-    { name: "Marketing", href: "#" },
-    { name: "Analytics", href: "#" },
-    { name: "Commerce", href: "#" },
-    { name: "Insights", href: "#" },
+    { name: 'Marketing', href: '#' },
+    { name: 'Analytics', href: '#' },
+    { name: 'Commerce', href: '#' },
+    { name: 'Insights', href: '#' },
   ],
   support: [
-    { name: "Pricing", href: "#" },
-    { name: "Documentation", href: "#" },
-    { name: "Guides", href: "#" },
-    { name: "API Status", href: "#" },
+    { name: 'Pricing', href: '#' },
+    { name: 'Documentation', href: '#' },
+    { name: 'Guides', href: '#' },
+    { name: 'API Status', href: '#' },
   ],
   company: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Partners", href: "#" },
+    { name: 'About', href: '#' },
+    { name: 'Blog', href: '#' },
+    { name: 'Jobs', href: '#' },
+    { name: 'Press', href: '#' },
+    { name: 'Partners', href: '#' },
   ],
   legal: [
-    { name: "Claim", href: "#" },
-    { name: "Privacy", href: "#" },
-    { name: "Terms", href: "#" },
+    { name: 'Claim', href: '#' },
+    { name: 'Privacy', href: '#' },
+    { name: 'Terms', href: '#' },
   ],
   social: [
     {
-      name: "Facebook",
-      href: "#",
+      name: 'Facebook',
+      href: '#',
     },
     {
-      name: "Instagram",
-      href: "#",
+      name: 'Instagram',
+      href: '#',
     },
     {
-      name: "Twitter",
-      href: "#",
+      name: 'Twitter',
+      href: '#',
     },
     {
-      name: "GitHub",
-      href: "#",
+      name: 'GitHub',
+      href: '#',
     },
     {
-      name: "Dribbble",
-      href: "#",
+      name: 'Dribbble',
+      href: '#',
     },
   ],
 };
 
-export default function Footer() {
+export default function Footer(): JSX.Element {
   // REDUX
-  //const counter = useSelector((state) => state.counter)
+  // const counter = useSelector((state) => state.counter)
 
   return (
     <footer className="bg-white" aria-labelledby="footer-heading">

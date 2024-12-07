@@ -1,12 +1,12 @@
-import Image from "next/image";
-import React from "react";
+import Image from 'next/image';
+import React from 'react';
 
 interface HomeListProps {
   title: string;
   value: string;
 }
 
-export default function HomeList(props: HomeListProps) {
+export default function HomeList(props: HomeListProps): JSX.Element {
   return (
     <>
       <li className="flex flex-row gap-2">

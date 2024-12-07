@@ -1,6 +1,6 @@
-import Image from "next/image";
+import Image from 'next/image';
 
-export default function HomeHero() {
+export default function HomeHero(): JSX.Element {
   return (
     <div className="flex md:flex-row flex-col border-0 my-20 px-[3vw] lg:px-[10vw] gap-[20px]">
       {/* Hero description */}

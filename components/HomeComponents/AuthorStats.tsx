@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
 interface AuthorStatsProps {
   statDescription: string;
   statNumber: string;
 }
 
-export default function AuthorStats(props: AuthorStatsProps) {
+export default function AuthorStats(props: AuthorStatsProps) : JSX.Element {
   return (
     <div className="flex flex-col gap-5">
       <span className="text-4xl sm:text-5xl text-primary font-bold">

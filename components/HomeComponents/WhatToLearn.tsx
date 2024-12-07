@@ -1,11 +1,11 @@
-import Image from "next/image";
-import React from "react";
-import SectionHeader from "../SectionHeader";
-import Topic from "./Topic";
+import Image from 'next/image';
+import React from 'react';
+import SectionHeader from '@components/SectionHeader.tsx';
+import Topic from '@components/HomeComponents/Topic.tsx';
 
-export default function WhatToLearn() {
+export default function WhatToLearn(): JSX.Element {
   // REDUX
-  //const counter = useSelector((state) => state.counter)
+  // const counter = useSelector((state) => state.counter)
 
   return (
     <div className="flex flex-col gap-10 relative bg-white py-12 sm:py-12 lg:py-20 overflow-hidden">

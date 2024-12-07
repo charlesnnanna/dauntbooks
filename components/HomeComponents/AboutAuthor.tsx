@@ -1,11 +1,12 @@
-"use client";
-import Image from "next/image";
-import React from "react";
-import AuthorStats from "./AuthorStats";
-import SectionHeader from "../SectionHeader";
-import QRCode from "react-qr-code";
+'use client';
 
-export default function AboutAuthor() {
+import Image from 'next/image';
+import React from 'react';
+import QRCode from 'react-qr-code';
+import AuthorStats from '@components/HomeComponents/AuthorStats';
+import SectionHeader from '@components/SectionHeader';
+
+export default function AboutAuthor() : JSX.Element {
   return (
     <div className="flex flex-col sm:flex-row bg-neutral md:py-[145px] py-[60px] lg:px-[10vw] px-[3vw]  w-full overflow-hidden">
       <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] relative sm:self-center">
@@ -38,7 +39,7 @@ export default function AboutAuthor() {
           <div className="bg-white p-3">
             <QRCode
               size={100}
-              style={{ height: "70", maxWidth: "100%", width: "100%" }}
+              style={{ height: '70', maxWidth: '100%', width: '100%' }}
               viewBox={`0 0 256 256`}
               value="John Abraham, Ph D, JohnAbraham@gmail.com, +2 123 545 9000"
             />

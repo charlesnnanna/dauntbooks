@@ -1,5 +1,5 @@
-import Image from "next/image";
-import React from "react";
+import Image from 'next/image';
+import React from 'react';
 
 interface SingleStatProps {
   imageSrc: string;
@@ -8,7 +8,7 @@ interface SingleStatProps {
   alt: string;
 }
 
-export default function SingleStat(props: SingleStatProps) {
+export default function SingleStat(props: SingleStatProps) : JSX.Element {
   return (
     <div className="flex flex-col mt-10 sm:mt-0 gap-2">
       <dt className="mt-2 text-lg leading-6 font-medium text-indigo-200 flex flex-col gap-4">
