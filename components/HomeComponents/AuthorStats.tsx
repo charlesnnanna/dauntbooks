@@ -5,7 +5,7 @@ interface AuthorStatsProps {
   statNumber: string;
 }
 
-export default function AuthorStats(props: AuthorStatsProps) : JSX.Element {
+export default function AuthorStats(props: AuthorStatsProps): JSX.Element {
   return (
     <div className="flex flex-col gap-5">
       <span className="text-4xl sm:text-5xl text-primary font-bold">

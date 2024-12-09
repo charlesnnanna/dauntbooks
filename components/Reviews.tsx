@@ -1,4 +1,3 @@
-
 export default function Reviews(): JSX.Element {
   return (
     <section className="bg-white overflow-hidden">

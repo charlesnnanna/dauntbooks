@@ -5,10 +5,7 @@ import {
   DisclosureButton,
   DisclosurePanel,
 } from '@headlessui/react';
-import {
-  Bars3Icon,
-  XMarkIcon,
-} from '@heroicons/react/24/solid';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import Image from 'next/image';
 
 const navigation = [
@@ -19,12 +16,11 @@ const navigation = [
   { name: 'Contact', href: '#', current: false },
 ];
 
-function classNames(...classes: Array<string>) : string {
+function classNames(...classes: Array<string>): string {
   return classes.filter(Boolean).join(' ');
 }
 
-export default function Header() : JSX.Element {
-
+export default function Header(): JSX.Element {
   return (
     <Disclosure
       as="nav"

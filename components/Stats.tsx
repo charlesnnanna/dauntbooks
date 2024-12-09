@@ -1,7 +1,7 @@
 import SectionHeader from '@components/SectionHeader.tsx';
 import SingleStat from '@components/SingleStat.tsx';
 
-export default function Stats() : JSX.Element {
+export default function Stats(): JSX.Element {
   // REDUX
   // const counter = useSelector((state) => state.counter)
 

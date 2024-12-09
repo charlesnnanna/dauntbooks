@@ -10,7 +10,7 @@ import Newsletter from '@components/Newsletter';
 import Reviews from '@components/Reviews';
 import Stats from '@components/Stats';
 
-export default function Home() : JSX.Element {
+export default function Home(): JSX.Element {
   return (
     <>
       <HomeHero />

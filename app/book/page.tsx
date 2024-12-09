@@ -1,5 +1,4 @@
-
-export default function Book() : JSX.Element {
+export default function Book(): JSX.Element {
   return (
     <>
       <h1>This is the Book Page</h1>

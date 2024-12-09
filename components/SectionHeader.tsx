@@ -5,7 +5,7 @@ interface SectionHeaderProps {
   style: string;
 }
 
-export default function SectionHeader(props: SectionHeaderProps) : JSX.Element {
+export default function SectionHeader(props: SectionHeaderProps): JSX.Element {
   return (
     <header className={`flex ${props.style} flex-col w-full`}>
       <h2 className={`border-secondary text-4xl`}>{props.title}</h2>

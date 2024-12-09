@@ -66,10 +66,10 @@ module.exports = {
       'error',
       {
         patterns: [
-          '../*',  // Discourage relative imports outside of the current directory
-          './*',   // Discourage same-directory relative imports
-        ]
-      }
+          '../*', // Discourage relative imports outside of the current directory
+          './*', // Discourage same-directory relative imports
+        ],
+      },
     ],
     'import/no-unresolved': [
       2,
@@ -156,7 +156,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       typescript: {
-        project: './tsconfig.json'
+        project: './tsconfig.json',
       },
       alias: {
         map: [
@@ -165,12 +165,11 @@ module.exports = {
           ['@tests', './__tests__'],
           ['@utils/*', './utils/*'],
         ],
-        extensions: ['.ts', '.js']
+        extensions: ['.ts', '.js'],
       },
       node: {
-        extensions: ['.js', '.ts']
-      }
-    }
-  }
-  
+        extensions: ['.js', '.ts'],
+      },
+    },
+  },
 };

@@ -8,7 +8,6 @@ const cardo = Cardo({
   subsets: ['latin'],
 });
 
-
 export const metadata: Metadata = {
   title: 'DauntBooks | Home',
   description: 'Buy your favourite books here',
@@ -18,7 +17,7 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) : JSX.Element {
+}>): JSX.Element {
   return (
     <html lang="en">
       <body className={`${cardo.className} w-screen`}>

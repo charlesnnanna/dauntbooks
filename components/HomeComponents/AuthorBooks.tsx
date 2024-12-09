@@ -8,7 +8,7 @@ import AuthorBook from '@components/HomeComponents/AuthorBook.tsx';
 import 'swiper/css';
 import SectionHeader from '@components/SectionHeader.tsx';
 
-export default function AuthorBooks() : JSX.Element {
+export default function AuthorBooks(): JSX.Element {
   return (
     <div className="bg-white md:py-[145px] py-[60px] lg:px-[10vw] px-[3vw]  w-full">
       <SectionHeader

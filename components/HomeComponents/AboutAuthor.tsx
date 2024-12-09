@@ -6,7 +6,7 @@ import QRCode from 'react-qr-code';
 import AuthorStats from '@components/HomeComponents/AuthorStats';
 import SectionHeader from '@components/SectionHeader';
 
-export default function AboutAuthor() : JSX.Element {
+export default function AboutAuthor(): JSX.Element {
   return (
     <div className="flex flex-col sm:flex-row bg-neutral md:py-[145px] py-[60px] lg:px-[10vw] px-[3vw]  w-full overflow-hidden">
       <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] relative sm:self-center">
